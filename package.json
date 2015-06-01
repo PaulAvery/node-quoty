@@ -4,7 +4,7 @@
     "chalk": "^1.0.0"
   },
   "bin": "lib/quoty.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Florian Albertz",
   "license": "BSD-3-Clause",
   "eslintConfig": {
