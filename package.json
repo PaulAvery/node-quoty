@@ -1,0 +1,32 @@
+{
+  "name": "quoty",
+  "dependencies": {
+    "chalk": "^1.0.0"
+  },
+  "bin": "quoty.js",
+  "version": "1.0.0",
+  "author": "Florian Albertz",
+  "license": "BSD-3-Clause",
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "rules": {
+      "curly": [
+        2,
+        "multi-line"
+      ],
+      "quotes": [
+        2,
+        "single"
+      ]
+    },
+    "ecmaFeatures": {
+      "modules": true
+    }
+  },
+  "devDependencies": {
+    "eslint": "^0.22.1"
+  }
+}
